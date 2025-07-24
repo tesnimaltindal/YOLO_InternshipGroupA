@@ -1,0 +1,20 @@
+# Sanal ortam klasörleri
+venv/
+yoloproj_env_new/
+.env/
+
+# Python cache dosyaları
+__pycache__/
+*.pyc
+
+# output klasöründeki tüm mp4 dosyalarını yoksay
+output/*.mp4
+
+# ama 'street_detection - Kopya.mp4' dosyasını dahil et (istisna)
+!output/street_detection - Kopya.mp4
+
+# videos klasöründeki mp4 dosyalarını yoksay
+videos/*.mp4
+
+# ama 'videos/v3.mp4' dosyasını dahil et
+!videos/v3.mp4
