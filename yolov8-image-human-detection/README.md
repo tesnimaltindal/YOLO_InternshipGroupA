@@ -19,37 +19,6 @@ Aşağıda, insan tespiti öncesi ve sonrası iki görsel yan yana gösterilmiş
   <img src="output/result.jpg" alt="Tespit Sonrası Görsel" width="350"/>
 </p>
 
-## Kurulum
-
-Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin:
-
-1.  **Depoyu Klonlayın:**
-    ```bash
-    git clone https://github.com/KULLANICI_ADINIZ/yolov8-image-human-detection.git
-    cd yolov8-image-human-detection
-    ```
-    *(NOT: Kendi GitHub kullanıcı adınızla bir depo oluşturup bu projeyi oraya yükledikten sonra bu linki kullanabilirsiniz.)*
-
-2.  **Gerekli Klasörleri Oluşturun (Eğer yoksa):**
-    ```bash
-    mkdir input output src
-    ```
-
-3.  **Python Ortamı Oluşturun (Önerilir - Opsiyonel):**
-    Sanal bir ortam oluşturmak, proje bağımlılıklarınızın sisteminizdeki diğer Python projeleriyle çakışmamasını sağlar.
-    ```bash
-    python -m venv venv
-    # Windows
-    .\venv\Scripts\activate
-    # macOS/Linux
-    source venv/bin/activate
-    ```
-
-4.  **Bağımlılıkları Yükleyin:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-
 ## Kullanım
 
 `detect_humans.py` betiğini çalıştırmak için aşağıdaki komut satırı argümanlarını kullanabilirsiniz:
