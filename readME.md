@@ -16,7 +16,6 @@ Bu proje, bir video akışı üzerinden **YOLOv8 nano (yolov8n) modeli** kullana
 -   [ Kullanılan Teknolojiler](#kullanılan-teknolojiler)
 -   [ Kurulum](#kurulum)
 -   [ Kullanım](#kullanım)
--   [ Demo Videolar](#demo-videolar)
 -   [ Örnek Görseller](#tespit-örneği-görselleri)
 
 ---
@@ -105,6 +104,8 @@ Projenin temel dizin ve dosya yapısı aşağıdaki gibidir:
     
 
 1.  İşlemek istediğiniz video dosyasını projenizin ana dizinindeki `videos/xxx.mp4` yoluna yerleştirin. (Alternatif olarak, kod içerisindeki `video_path` değişkenini kendi video dosyanızın yolu ile güncelleyebilirsiniz.)
+
+    **Video Kaynağı Önerisi:** Kendi videolarınız yoksa veya farklı insan videolarıyla deneme yapmak isterseniz, telifsiz ve yüksek kaliteli insan videolarını [Pexels Video Kütüphanesi](https://www.pexels.com/search/videos/human/) üzerinden edinebilirsiniz.
 2.  Ana Python betiğini çalıştırın (betiğinizin adı örneğin `main_detection_script.py` ise):
 
     ```bash
@@ -114,13 +115,6 @@ Projenin temel dizin ve dosya yapısı aşağıdaki gibidir:
 3.  İşlem tamamlandığında, algılanan insanları ve çizilen sınır kutularını içeren çıktı videosu, projenin `output/street_detection.mp4` konumunda bulunacaktır.
 
 ---
-
-## Demo Videolar
-Projenin çıktılarını daha iyi anlamak için demo videoları izleyebilirsiniz.
-
-<small>
-Ek Not:Demo videolarının kopyaları, projenin `output/` klasöründe bulunmaktadır. İndirerek videoları doğrudan kendi cihazlarınızda görüntüleyebilirsiniz.</small>
-
 ## Tespit Örneği Görselleri
 
 ### Tespit Örneği 1
