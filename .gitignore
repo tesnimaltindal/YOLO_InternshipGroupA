@@ -6,10 +6,16 @@ yoloproj_env_new/
 # Python cache
 __pycache__/
 *.pyc
-
-# Tüm video dosya türlerini dışla
+# Videoları engelle
 *.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.flv
+*.wmv
 
-# Eğer özel olarak bir klasörde video varsa, klasör bazında da engelle
+# Klasör bazlı dışlama
 videos/
 output/
+
