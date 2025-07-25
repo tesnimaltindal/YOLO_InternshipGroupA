@@ -1,0 +1,10 @@
+Toplam tespit edilen kişi: 6
+Tespit edilen nesneler:
+1. Sınıf: person, Skor: 0.94, Kutu: [0, 47, 102, 296]
+2. Sınıf: person, Skor: 0.93, Kutu: [420, 23, 550, 296]
+3. Sınıf: person, Skor: 0.92, Kutu: [312, 56, 422, 298]
+4. Sınıf: person, Skor: 0.92, Kutu: [191, 11, 313, 296]
+5. Sınıf: person, Skor: 0.90, Kutu: [543, 47, 637, 297]
+6. Sınıf: person, Skor: 0.88, Kutu: [99, 73, 196, 298]
+7. Sınıf: laptop, Skor: 0.57, Kutu: [210, 105, 304, 171]
+8. Sınıf: laptop, Skor: 0.33, Kutu: [460, 136, 542, 185]
