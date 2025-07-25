@@ -129,7 +129,7 @@ Projenin temel dizin ve dosya yapısı aşağıdaki gibidir:
 *Farklı bir videoda modelin algılama yeteneğini sergileyen bir örnek.*
 
 ### Tespit Örneği 3
-![Tespit Örneği 2](img/v3.png)
+![Tespit Örneği 3](img/v3.png)
 *Farklı bir videoda modelin algılama yeteneğini sergileyen bir örnek.*
 
 ---
